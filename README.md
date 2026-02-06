@@ -8,7 +8,8 @@
 
 Socat Forwarder
 
-    wget https://raw.githubusercontent.com/ToolSeRF/Sepehr-GRE-FORWARDER/refs/heads/main/sepehr.sh && chmod +x sepehr.sh && bash sepehr.sh
+    wget -O sepehr.sh "https://raw.githubusercontent.com/ToolSeRF/Sepehr-GRE-FORWARDER/main/sepehr.sh?$(date +%s)" && chmod +x sepehr.sh && bash sepehr.sh
+
 
 
 HAProxy Forwarder
